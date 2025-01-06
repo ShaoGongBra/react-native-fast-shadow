@@ -24,6 +24,5 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "esnext"
-  },
-  "include": ["src", "react-native-custom.d.ts"]
+  }
 }
