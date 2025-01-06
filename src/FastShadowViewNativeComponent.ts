@@ -1,6 +1,6 @@
 import type { HostComponent, ViewProps } from 'react-native'
 import codegenNativeComponent from 'react-native/Libraries/Utilities/codegenNativeComponent'
-import { Int32, Float } from 'react-native/Libraries/Types/CodegenTypes'
+import type { Int32, Float } from 'react-native/Libraries/Types/CodegenTypes'
 
 export interface FastShadowViewProps extends ViewProps {
   shadowColor?: Int32
