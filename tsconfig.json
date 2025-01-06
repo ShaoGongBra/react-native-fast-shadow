@@ -4,7 +4,6 @@
     "paths": {
       "react-native-fast-shadow": ["./src/index"]
     },
-    "include": ["src", "react-native-custom.d.ts"],
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "esModuleInterop": true,
@@ -25,5 +24,6 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "esnext"
-  }
+  },
+  "include": ["src", "react-native-custom.d.ts"]
 }
